@@ -33,6 +33,7 @@ var domString = "<h4>" + yarn + "</h4>";
 
 var myDiv = document.getElementById('yarn-holder');
 
+
 // myDiv.innerHTML = domString;
 
 var str = 'IBMELOVEbmcatsbmw';
@@ -41,6 +42,9 @@ str = str.replace(/[bmw]/ig,'');
 var domString = '<h>' + str + '</h>';
 var myH1 = document.getElementById('output');
 myH1.innerHTML = domString;
+
+
+myDiv.innerHTML = domString;
 
 
 
