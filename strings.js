@@ -15,3 +15,24 @@ var DNA = "GCAT";
 var RNA = DNA.replace("T","U");
 console.log("RNA:", RNA);
 
+//Challenge #4
+var animal = "alligator";
+// var animal = prompt();
+var animal = "Dog";
+// var animal = "dog";
+if(animal.toLowerCase() === "alligator"){
+    // console.log("Big");
+    // debugger;
+}
+else{
+    console.log("Small");
+}
+
+var yarn = "the better string";
+var domString = "<h4>" + yarn + "</h4>";
+
+var myDiv = document.getElementById('yarn-holder');
+
+myDiv.innerHTML = domString;
+
+
